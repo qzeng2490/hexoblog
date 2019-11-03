@@ -1,0 +1,74 @@
+slogan: "Yet another bootstrap theme."
+
+theme: cerulean
+inverse: true
+
+menu:
+  - title: Archives
+    url: archives
+    intro: "All the articles."
+    icon: "fa fa-archive"
+  - title: Categories
+    url: categories
+    intro: "All the categories."
+    icon: "fa fa-folder"
+  - title: Tags
+    url: tags
+    intro: "All the tags."
+    icon: "fa fa-tags"
+  - title: About
+    url: about
+    intro: "About me."
+    icon: "fa fa-user"
+
+links:
+  - title: "My Github"
+    url: http://www.github.com/qzeng2490
+    intro: "My Github account."
+    icon: "fa fa-github"
+  - title: "My Resume"
+    url: https://resume-qiang.herokuapp.com/
+    intro: "My Resume."
+    icon: "fa fa-linkedin"
+
+widgets:
+- search
+- recent_comments
+- category
+- tagcloud
+- recent_posts
+- links
+
+rss:
+fancybox: true
+favicon: favicon.png
+duoshuo_shortname: #freemindtheme
+
+# Recommended posts
+# Dependency: https://github.com/huiwang/hexo-recommended-posts
+recommended_posts:
+  enabled: false
+
+# Analytics
+google_analytics:
+  enable: false
+  siteid:
+baidu_tongji:
+  enable: false
+  siteid:
+
+# search
+# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+
+# share widgets
+bdshare: true
+jiathis: false
+
+# built-in comment system
+comment_js:
+  type: "github"
+  user: "qzeng2490"
+  repo: "hexoblog"
+  client_id: "Iv1.e03df9d09b3ab3a7"
+  client_secret: "92a9a0ee4877736e5c88bbefea8584b61e8bd7c2"
+  count: 5
